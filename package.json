@@ -2,12 +2,23 @@
   "name": "ultimate-node-stack",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Silavsale <silavsale@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && swc ./src -d dist",
+    "start": "node dist/index.js"
+  },
   "dependencies": {
     "typescript": "^4.9.3"
   },
   "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.19",
     "@tsconfig/node18": "^1.0.1",
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.0"
   }
 }
