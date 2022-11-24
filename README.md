@@ -2,7 +2,7 @@
 
 ### List of dependencies
 
-- $${\color{lightgreen}"express": "^4.18.2",}
+- $${\color{lightgreen}"express": "^4.18.2",}$$
 - "morgan": "^1.10.0",
 - "typescript": "^4.9.3"
 
