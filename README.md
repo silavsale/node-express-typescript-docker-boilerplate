@@ -1,9 +1,11 @@
-# A Dockerized Nodejs Express Boilerplate with TypeScript
+## A Dockerized Nodejs Express Boilerplate with TypeScript
+
+- :alien: :japanese_ogre: :guardsman: :suspect: :sunny: :koala: :octocat:
 
 ### List of dependencies
 
-- $${\color{lightgreen}"express": "^4.18.2",}$$
-- "morgan": "^1.10.0",
+- "express": "^4.18.2",
+- "morgan": "^1.10.0",k
 - "typescript": "^4.9.3"
 
 ### List of DEV dependencies
