@@ -7,7 +7,6 @@ const app = express();
 app.use(morgan('dev'));
 
 app.get('/', (req: Request, res: Response) => {
-  debugger;
   res.json({ hello: 'Peremoga!!!' });
 });
 
